@@ -1,0 +1,105 @@
+.series input, .series select {
+  width: 70%;
+  height: 2em;
+  margin-bottom: 1em;
+}
+
+.series .btn {}
+
+h2 {
+  font-weight: 400;
+}
+
+.series input {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.btn {}
+
+.btn-primary {}
+
+.season {}
+
+.bounds {
+  justify-content: space-around;
+  padding: 0 1.25em;
+  margin-bottom: 1em;
+}
+
+.lower-bound {}
+
+.choice {
+  font-size: 2em;
+  margin-bottom: .25em;
+  text-align: center;
+  font-weight: 300;
+}
+
+.episode {}
+
+.home {
+  max-width: 75%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.home>div {
+  width: 33%;
+}
+
+.home-third h4 {
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
+.selection {
+  width: 100%;
+}
+
+.random-btn {
+  width: 60%;
+  margin-bottom: 0.25em;
+  font-weight: 500;
+}
+
+.random-input {
+  width: 25%;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.home-third {
+  margin: 0 0.5em;
+  padding: 2em;
+}
+
+.random-all {
+  background-color: black;
+  width: 3em;
+  position: absolute;
+  right: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column !important;
+    padding: 2em 0;
+  }
+
+  body {
+    height: 100%;
+  }
+
+  .home>div {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .random-btn {
+    word-wrap: break-word
+  }
+}

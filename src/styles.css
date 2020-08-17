@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('ydn.css');
+@import url('bootstrap/css/bootstrap.css');
+
+body {
+  height: 100vh;
+  background-color: #EEEEEE;
+  color: #01295f;
+  font-family: 'Sora', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Red Rose', cursive;
+}
+
+main {
+  height: 61%;
+  position: relative;
+}
+
+.red {
+  color: #F8333C;
+}
+
+.light-blue {
+  color: #2B9EB3;
+}
+
+.blue {
+  color: #01295f;
+}
+
+.dark-blue {
+  color: #02182B;
+}
+
+.yellow {
+  color: #FFF07C;
+}
+
+.green {
+  color: #A9f0D1;
+}
+
+.red-bg {
+  background-color: #F8333C;
+}
+
+.light-blue-bg {
+  background-color: #2B9EB3;
+}
+
+.blue-bg {
+  background-color: #01295f;
+}
+
+.dark-blue-bg {
+  background-color: #02182B;
+}
+
+.yellow-bg {
+  background-color: #FFF07C;
+}
+
+.green-bg {
+  background-color: #A9f0D1;
+}
+
+.btn-primary {
+  border: none;
+  box-shadow: 0.5px 0.5px 0.5px grey;
+}
+
+.btn-primary:hover {
+  background-color: lightgreen;
+}
+
+.donate-btn {
+  background: green;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100%;
+  }
+}

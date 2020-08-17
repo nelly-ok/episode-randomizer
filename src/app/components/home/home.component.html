@@ -1,0 +1,51 @@
+<main>
+  <div class="container d-flex f-row home blue">
+
+    <div class="series home-third d-flex f-col align-center">
+      <h2>Series</h2>
+      <!-- <input type="search" placeholder="Search" name="" value=""> -->
+      <select id="EpisodeSelect" class="" name="">
+        <option ng-click="switch(show.id);" *ngFor="let show of shows" class="series-option" value={{show.id}}>{{show.name}}</option>
+        <!-- *ngFor="let option of series" -->
+        <!--   <option class="series-option" value="Food">Nerr</option> -->
+      </select>
+
+
+      <button (click)='randomSeries();' class="btn btn-primary random-btn red-bg" type="button" name="button">Randomize</button>
+
+      <div id="SEC" class="choice">Bojack Horseman</div>
+    </div>
+
+
+    <div class="season home-third d-flex f-col align-center">
+      <h2>Seasons</h2>
+      <div class="bounds d-flex f-row">
+        <input type="text" id="SL" name="" class="lower-bound random-input" value="1">
+        <input type="text" id="SU" name="" class="upper-bound random-input" value="6">
+      </div>
+
+      <button (click)='randomSeason();' class="btn btn-primary blue random-btn yellow-bg" type="button" name="button">Randomize</button>
+
+      <div id="SC" class="choice">6</div>
+    </div>
+
+
+    <div class="episode home-third d-flex f-col align-center">
+      <h2>Episode</h2>
+      <div class="bounds d-flex f-row">
+        <input type="text" id="EL" name="" class="lower-bound random-input" value="1">
+        <input type="text" id="EU" name="" class="upper-bound random-input" value="16">
+      </div>
+      <button (click)='randomEpisode();' class="btn btn-primary blue random-btn green-bg" type="button" name="button">Randomize</button>
+
+      <div id="EC" class="choice">9</div>
+    </div>
+
+
+    <button (click)='randomAll();' class="btn btn-primary random-btn green-bg random-all" type="button" name="button">All</button>
+
+
+
+  </div>
+
+</main>

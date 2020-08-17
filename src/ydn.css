@@ -1,0 +1,40 @@
+.f-col {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.m1e {
+  margin: 1em;
+}
+
+.ml1e {
+  margin-left: 1em;
+}
+
+.mr1e {
+  margin-right: 1em;
+}
+
+.mt1e {
+  margin-top: 1em;
+}
+
+.mb1e {
+  margin-bottom: 1em;
+}
+
+.btn {
+  height: fit-content;
+}
+
+/**Beta **/
+.just-space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
